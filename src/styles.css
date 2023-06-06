@@ -40,7 +40,8 @@ body {
 
   .wiki-text,
   .img-container {
-    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
   }
 
   .wiki-header {
@@ -50,5 +51,7 @@ body {
 
   .wiki-text {
     margin-top: 10px;
+    max-width: 50%;
+    min-width: 50%;
   }
 }
