@@ -1,0 +1,54 @@
+/* Mobile styles */
+body {
+  font-family: times-new-roman;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.wiki-item {
+  margin: 0 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Add some margin-bottom for spacing */
+}
+
+.wiki-content {
+  padding: 10px;
+}
+
+.wiki-img {
+  width: 100%;
+}
+
+.wiki-header {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.wiki-text {
+  margin-top: 5px;
+}
+
+/* Desktop styles */
+@media (min-width: 600px) {
+  .wiki-content {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .wiki-text,
+  .img-container {
+    width: 50%;
+  }
+
+  .wiki-header {
+    text-align: center;
+    margin: 0 auto; /* Center the header */
+  }
+
+  .wiki-text {
+    margin-top: 10px;
+  }
+}
